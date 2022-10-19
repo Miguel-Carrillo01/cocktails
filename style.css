@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #230312;
+}
+
+header{
+    width: 100%rem;
+    height: 5rem;
+    background-color: #34081c;
+
+}
+
+.home{
+    margin-left: 50rem;
+}
+
+#containerCards{
+    color: white;
+}
+
+#title{
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#paragraphone{
+    width: 20rem;
+    /* margin-top: 1rem; */
+    margin-left: 30rem;
+    font-size: 0.7rem;
+    color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+}
+
+#seeker{
+    height: 1.5rem;
+    display: flex;    
+    margin: 2rem;
+    margin-left: 34rem;
+    border-radius: 3px;
+    border-color: orange;
+}
+
+.home{
+    height: 2rem;
+    width: 4rem;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border-color: red;
+}
+
+.ap{
+    color: white;
+    background: none;
+    background-color: none;
+    border: none;
+}
+
+.for{
+    color: white;
+    background: none;
+    background-color: none;
+    border: none;
+}
+
+
+#imgone{
+    width: 10rem;
+    margin-left: 18rem;
+    margin-top: -16rem;
+
+}
+
+#imgtwo{
+    margin-left:51em;
+    width: 10rem;
+    margin-top: -10rem;
+    
+}
+
+#containerCards{
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#first-from-above{
+    margin-left: 9rem;
+}
+
+::placeholder{
+    color: #230312;
+}
+#patreon{
+    width: 16rem;
+    /* margin-top: -8rem; */
+    margin-left: 30rem;
+}
+
+.card{
+    /* margin-top: 2rem; */
+  /* margin-left: 0.5rem; */
+  /* padding: 2rem;  */
+  margin: 2rem;
+  background: #8f8f89ba;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50px;
+}
+
+.card>.img{
+    height: 50%;
+    width: 50%;
+    border-radius: 30px;
+    border: 3px solid #230312;
+    box-shadow: 0 0 30px #230312;
+    margin-left: 3rem;
+    margin-top: 0.9rem;
+    /* flex-wrap: wrap; */
+  }
+  
+  .card > .name{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+
+    font-size: 2rem;
+    color: #5b1736;
+    /* font-family: cursive; */
+    /* text-shadow: 0 0 6px #000000;
+    position: absolute; */
+  
+  }
+
+  .filtro{
+    display: none;
+  }
